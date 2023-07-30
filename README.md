@@ -6,7 +6,7 @@ This project is a simple implementation of the classic Tic-Tac-Toe game using Re
 
 You can try out the game by visiting the live demo here: [Tic-Tac-Toe Demo](https://tic-tac-toe-rubiyet.vercel.app/)
 
-![Tic-Tac-Toe Screenshot](/Screenshot_1.png)
+![Tic-Tac-Toe Screenshot](/screenshot.png)
 
 ## Features
 
