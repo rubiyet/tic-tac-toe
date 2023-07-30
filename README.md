@@ -1,38 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tic-Tac-Toe Game
 
-## Getting Started
+This project is a simple implementation of the classic Tic-Tac-Toe game using React and Next.js.
 
-First, run the development server:
+## Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+You can try out the game by visiting the live demo here: [Tic-Tac-Toe Demo](https://tic-tac-toe-rubiyet.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Tic-Tac-Toe Screenshot](/Screenshot_1.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Classic Tic-Tac-Toe gameplay.
+- Displays the game status (e.g., winner, next player) on the board.
+- Prevents further moves after a winner is determined.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## How to Run the Application from GitHub
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run the Next.js application from a GitHub repository, follow these steps:
 
-## Learn More
+1. Clone the repository to your local machine using Git. Run the following command: git clone https://github.com/rubiyet/tic-tac-toe
+2. Navigate into the cloned directory: cd tic-tac-toe
+3. Install the project dependencies by running the following command: npm install
+4. Once the dependencies are installed, start the development server: npm run dev
+5. Open your web browser and visit `http://localhost:3000` (or another specified port if mentioned) to see the Next.js application running.
 
-To learn more about Next.js, take a look at the following resources:
+Note: Ensure that you have Node.js and npm (Node Package Manager) installed on your system before running the above commands. If you haven't installed them yet, please refer to the official Node.js website (https://nodejs.org) for instructions on how to download and install Node.js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to Play
+- Click on any empty square to make a move.
+- Players take turns, with "X" and "O" representing the two players.
+- The game ends when a player wins by having three of their symbols in a row, column, or diagonal.
+- If there are no more empty squares and no winner, the game is a draw.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Folder Structure
 
-## Deploy on Vercel
+The project follows a simple component structure:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- components: Contains the individual React components used in the game.
+- pages: Defines the main pages of the application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Dependencies
+
+The project uses the following main dependencies:
+
+- React: A JavaScript library for building user interfaces.
+- Next.js: A framework for building server-rendered React applications.
+- ... (List any other major dependencies and their versions.)
+
+For a complete list of dependencies, check the package.json file.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have improvements to suggest, feel free to open an issue or submit a pull request.
+
+- Fork the repository.
+- Create a new branch: git checkout -b my-feature
+- Commit your changes: git commit -m 'Add my feature'
+- Push to the branch: git push origin my-feature
+- Open a pull request.
