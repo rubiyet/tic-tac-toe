@@ -18,11 +18,11 @@ You can try out the game by visiting the live demo here: [Tic-Tac-Toe Demo](http
 
 To run the Next.js application from a GitHub repository, follow these steps:
 
-1. Clone the repository to your local machine using Git. Run the following command: git clone https://github.com/rubiyet/tic-tac-toe
-2. Navigate into the cloned directory: cd tic-tac-toe
-3. Install the project dependencies by running the following command: npm install
-4. Once the dependencies are installed, start the development server: npm run dev
-5. Open your web browser and visit `http://localhost:3000` (or another specified port if mentioned) to see the Next.js application running.
+- Clone the repository to your local machine using Git. Run the following command: git clone https://github.com/rubiyet/tic-tac-toe
+- Navigate into the cloned directory: cd tic-tac-toe
+- Install the project dependencies by running the following command: npm install
+- Once the dependencies are installed, start the development server: npm run dev
+- Open your web browser and visit `http://localhost:3000` (or another specified port if mentioned) to see the Next.js application running.
 
 Note: Ensure that you have Node.js and npm (Node Package Manager) installed on your system before running the above commands. If you haven't installed them yet, please refer to the official Node.js website (https://nodejs.org) for instructions on how to download and install Node.js.
 
